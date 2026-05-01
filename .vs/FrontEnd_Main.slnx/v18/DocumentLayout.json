@@ -1,0 +1,121 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\USER\\source\\repos\\FrontEnd_Main\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{DA13CFC8-8F32-E152-C6A2-B30AF2CE5F26}|FrontEnd_Main.csproj|c:\\users\\user\\source\\repos\\frontend_main\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{DA13CFC8-8F32-E152-C6A2-B30AF2CE5F26}|FrontEnd_Main.csproj|solutionrelative:wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA13CFC8-8F32-E152-C6A2-B30AF2CE5F26}|FrontEnd_Main.csproj|c:\\users\\user\\source\\repos\\frontend_main\\views\\student\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DA13CFC8-8F32-E152-C6A2-B30AF2CE5F26}|FrontEnd_Main.csproj|solutionrelative:views\\student\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA13CFC8-8F32-E152-C6A2-B30AF2CE5F26}|FrontEnd_Main.csproj|c:\\users\\user\\source\\repos\\frontend_main\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DA13CFC8-8F32-E152-C6A2-B30AF2CE5F26}|FrontEnd_Main.csproj|solutionrelative:controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA13CFC8-8F32-E152-C6A2-B30AF2CE5F26}|FrontEnd_Main.csproj|c:\\users\\user\\source\\repos\\frontend_main\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DA13CFC8-8F32-E152-C6A2-B30AF2CE5F26}|FrontEnd_Main.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA13CFC8-8F32-E152-C6A2-B30AF2CE5F26}|FrontEnd_Main.csproj|c:\\users\\user\\source\\repos\\frontend_main\\views\\shared\\_navigation.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DA13CFC8-8F32-E152-C6A2-B30AF2CE5F26}|FrontEnd_Main.csproj|solutionrelative:views\\shared\\_navigation.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA13CFC8-8F32-E152-C6A2-B30AF2CE5F26}|FrontEnd_Main.csproj|c:\\users\\user\\source\\repos\\frontend_main\\views\\shared\\_footer.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DA13CFC8-8F32-E152-C6A2-B30AF2CE5F26}|FrontEnd_Main.csproj|solutionrelative:views\\shared\\_footer.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\FrontEnd_Main\\Views\\Student\\Login.cshtml",
+              "RelativeDocumentMoniker": "Views\\Student\\Login.cshtml",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\FrontEnd_Main\\Views\\Student\\Login.cshtml",
+              "RelativeToolTip": "Views\\Student\\Login.cshtml",
+              "ViewState": "AgIAABgAAAAAAAAAAAAuwCcAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-30T15:21:37.764Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "StudentController.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\FrontEnd_Main\\Controllers\\StudentController.cs",
+              "RelativeDocumentMoniker": "Controllers\\StudentController.cs",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\FrontEnd_Main\\Controllers\\StudentController.cs",
+              "RelativeToolTip": "Controllers\\StudentController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-30T15:19:50.393Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\FrontEnd_Main\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\FrontEnd_Main\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "wwwroot\\css\\site.css",
+              "ViewState": "AgIAAPcAAAAAAAAAAAAgwD8BAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-04-29T17:59:43.918Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\FrontEnd_Main\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\FrontEnd_Main\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-29T17:58:47.334Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "_Footer.cshtml",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\FrontEnd_Main\\Views\\Shared\\_Footer.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Footer.cshtml",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\FrontEnd_Main\\Views\\Shared\\_Footer.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Footer.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-29T17:55:41.075Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "_Navigation.cshtml",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\FrontEnd_Main\\Views\\Shared\\_Navigation.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Navigation.cshtml",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\FrontEnd_Main\\Views\\Shared\\_Navigation.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Navigation.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-29T17:54:25.494Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

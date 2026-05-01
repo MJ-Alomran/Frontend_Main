@@ -1,0 +1,80 @@
+﻿@{
+    ViewData["Title"] = "الرئيسية";
+}
+
+<section class="hero-section" style="background: linear-gradient(135deg, #1a4d4d 0%, #0d2a2a 100%);
+    background-image: url('~/img/background.png');
+    background-size: cover;
+    background-position: center;
+    padding: 80px 20px;
+    text-align: center;
+    color: #20b2aa;
+    position: relative;
+    overflow: hidden;">
+    
+    <div class="hero-particles"></div>
+    
+    <h1 class="display-4 fw-bold mb-3"> مرحباً بك </h1>
+    <p class="lead mb-5">يرجى إختيار نوع الحساب للمنصة </p>
+    
+    <!-- (2x2 Grid) -->
+    <div class="container mt-5">
+        <div class="row g-4 justify-content-center">
+            
+            
+            <div class="col-md-5">
+                <div class="role-card">
+                    <div class="icon-circle">
+                        <i class="fas fa-laptop"></i>
+                    </div>
+                    <h3>طالب</h3>
+                    <p class="text-muted">
+                        تسجيل الدخول للبحث عن فرص تدريبية ومتابعة الطلبات
+                    </p>
+                    <a href="/Student/Login" class="btn btn-teal mt-3">دخول الطالب</a>
+                </div>
+            </div>
+         
+            <div class="col-md-5">
+                <div class="role-card">
+                    <div class="icon-circle">
+                        <i class="fas fa-user-tie"></i>
+                    </div>
+                    <h3>مشرف أكاديمي</h3>
+                    <p class="text-muted">
+                        متابعة الطلاب وتقييم الأداء والاعتماد على الشركات
+                    </p>
+                    <a href="/Supervisor/Login" class="btn btn-teal mt-3">دخول المشرف</a>
+                </div>
+            </div>
+            
+          
+            <div class="col-md-5">
+                <div class="role-card">
+                    <div class="icon-circle">
+                        <i class="fas fa-briefcase"></i>
+                    </div>
+                    <h3>شركة/جهة تدريب</h3>
+                    <p class="text-muted">
+                        طرح فرص التدريب واستقطاب المدربين وتوثيق المشاريع
+                    </p>
+                    <a href="/Company/Login" class="btn btn-teal mt-3">دخول الشركة</a>
+                </div>
+            </div>
+            
+            <div class="col-md-5">
+                <div class="role-card">
+                    <div class="icon-circle">
+                        <i class="fas fa-smile"></i>
+                    </div>
+                    <h3>زائر</h3>
+                    <p class="text-muted">
+                        استعراض المعلومات والاطلاع على فرص التدريب
+                    </p>
+                    <a href="/Visitor/Browse" class="btn btn-teal mt-3">دخول الزائر</a>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+</section>
