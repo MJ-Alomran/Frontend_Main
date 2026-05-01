@@ -1,0 +1,135 @@
+@{
+    ViewData["Title"] = "تسجيل طالب جديد";
+}
+
+<div class="login-container">
+    <div class="login-card register-card">
+        <!-- العنوان -->
+        <h1 class="login-title">تسجيل طالب جديد</h1>
+        <p class="login-subtitle">أنشئ حسابك الآن للتسجيل في البرنامج</p>
+
+        <!-- نموذج التسجيل -->
+        <form method="post" action="/Student/Register" class="login-form" id="registerForm">
+            
+            <!-- الاسم الأول -->
+            <div class="form-group">
+                <label for="firstName" class="form-label">
+                    <i class="fas fa-user"></i> الاسم الأول
+                </label>
+                <input type="text"
+                       id="firstName"
+                       name="firstName"
+                       class="form-control"
+                       placeholder="أدخل اسمك الأول"
+                       required>
+            </div>
+
+            <!-- الاسم الأخير -->
+            <div class="form-group">
+                <label for="lastName" class="form-label">
+                    <i class="fas fa-user"></i> الاسم الأخير
+                </label>
+                <input type="text"
+                       id="lastName"
+                       name="lastName"
+                       class="form-control"
+                       placeholder="أدخل اسمك الأخير"
+                       required>
+            </div>
+
+            <!-- الرقم الجامعي -->
+            <div class="form-group">
+                <label for="studentId" class="form-label">
+                    <i class="fas fa-id-card"></i> الرقم الجامعي
+                </label>
+                <input type="text"
+                       id="studentId"
+                       name="studentId"
+                       class="form-control"
+                       placeholder="أدخل رقمك الجامعي"
+                       required>
+            </div>
+
+            <!-- البريد الإلكتروني -->
+            <div class="form-group">
+                <label for="email" class="form-label">
+                    <i class="fas fa-envelope"></i> البريد الإلكتروني
+                </label>
+                <input type="email"
+                       id="email"
+                       name="email"
+                       class="form-control"
+                       placeholder="أدخل بريدك الإلكتروني"
+                       required>
+            </div>
+
+            <!-- كلمة المرور -->
+            <div class="form-group">
+                <label for="password" class="form-label">
+                    <i class="fas fa-lock"></i> كلمة المرور
+                </label>
+                <input type="password"
+                       id="password"
+                       name="password"
+                       class="form-control"
+                       placeholder="أدخل كلمة مرور قوية"
+                       required>
+            </div>
+
+            <!-- تأكيد كلمة المرور -->
+            <div class="form-group">
+                <label for="confirmPassword" class="form-label">
+                    <i class="fas fa-lock"></i> تأكيد كلمة المرور
+                </label>
+                <input type="password"
+                       id="confirmPassword"
+                       name="confirmPassword"
+                       class="form-control"
+                       placeholder="أكد كلمة المرور"
+                       required>
+            </div>
+
+            <!-- رسالة الخطأ (مخفية في البداية) -->
+            <div id="passwordError" class="alert alert-danger d-none" role="alert">
+                <i class="fas fa-exclamation-circle"></i> كلمات المرور غير متطابقة!
+            </div>
+
+            <!-- زر التسجيل -->
+            <button type="submit" class="btn btn-login">
+                <i class="fas fa-user-plus"></i> تسجيل الحساب
+            </button>
+        </form>
+
+        <!-- رابط تسجيل الدخول -->
+        <div class="login-footer">
+            <p>
+                هل لديك حساب بالفعل؟
+                <a href="/Student/Login" class="register-link">تسجيل دخول</a>
+            </p>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+        // التحقق من مطابقة كلمات المرور
+        document.getElementById('registerForm').addEventListener('submit', function(e) {
+            const password = document.getElementById('password').value;
+            const confirmPassword = document.getElementById('confirmPassword').value;
+            const passwordError = document.getElementById('passwordError');
+
+            if (password !== confirmPassword) {
+                e.preventDefault();
+                passwordError.classList.remove('d-none');
+                document.getElementById('confirmPassword').focus();
+            } else {
+                passwordError.classList.add('d-none');
+            }
+        });
+
+        // إخفاء رسالة الخطأ عند التغيير
+        document.getElementById('confirmPassword').addEventListener('input', function() {
+            document.getElementById('passwordError').classList.add('d-none');
+        });
+    </script>
+}
