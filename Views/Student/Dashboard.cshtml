@@ -1,0 +1,243 @@
+@{
+    ViewData["Title"] = "لوحة التحكم - الطالب";
+}
+
+<div class="dashboard-container">
+    <!-- Sidebar -->
+    <aside class="sidebar">
+        <div class="sidebar-header">
+            <h3>قائمة الملاحة</h3>
+        </div>
+        <nav class="sidebar-nav">
+            <a href="/Student/Dashboard" class="nav-item active">
+                <i class="fas fa-home"></i>
+                <span>الرئيسية</span>
+            </a>
+            <a href="/Student/Profile" class="nav-item">
+                <i class="fas fa-user"></i>
+                <span>السيرة الذاتية</span>
+            </a>
+            <a href="/Student/Opportunities" class="nav-item">
+                <i class="fas fa-briefcase"></i>
+                <span>فرص التدريب</span>
+            </a>
+            <a href="/Student/Applications" class="nav-item">
+                <i class="fas fa-clipboard-list"></i>
+                <span>الطلبات</span>
+            </a>
+            <a href="/Student/Settings" class="nav-item">
+                <i class="fas fa-cog"></i>
+                <span>الإعدادات</span>
+            </a>
+            <hr class="sidebar-divider">
+            <a href="/Student/Logout" class="nav-item logout">
+                <i class="fas fa-sign-out-alt"></i>
+                <span>تسجيل الخروج</span>
+            </a>
+        </nav>
+    </aside>
+
+    <!-- Main Content -->
+    <main class="dashboard-content">
+        <!-- Header -->
+        <div class="dashboard-header">
+            <div class="header-welcome">
+                <h1>مرحباً بك، محمد جلال</h1>
+                <p>آخر تحديث: اليوم الساعة 2:30 م</p>
+            </div>
+            <div class="header-actions">
+                <button class="btn-notification">
+                    <i class="fas fa-bell"></i>
+                    <span class="notification-badge">3</span>
+                </button>
+                <div class="user-profile-mini">
+                    <img src="https://via.placeholder.com/40" alt="Profile">
+                    <span>MJ</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Statistics Cards -->
+        <section class="statistics-section">
+            <h2>إحصائياتك</h2>
+            <div class="cards-grid">
+                <!-- Card 1: Application Status -->
+                <div class="stat-card status-card">
+                    <div class="card-icon" style="background: linear-gradient(135deg, #20b2aa 0%, #1a9a8a 100%);">
+                        <i class="fas fa-tasks"></i>
+                    </div>
+                    <div class="card-content">
+                        <h3>حالة الطلب</h3>
+                        <p class="card-value">قيد المراجعة</p>
+                        <small>آخر تحديث: منذ ساعتين</small>
+                    </div>
+                </div>
+
+                <!-- Card 2: Companies Applied -->
+                <div class="stat-card companies-card">
+                    <div class="card-icon" style="background: linear-gradient(135deg, #3498db 0%, #2980b9 100%);">
+                        <i class="fas fa-building"></i>
+                    </div>
+                    <div class="card-content">
+                        <h3>الشركات المختارة</h3>
+                        <p class="card-value">5</p>
+                        <small>من أصل 12 شركة</small>
+                    </div>
+                </div>
+
+                <!-- Card 3: Contract Status -->
+                <div class="stat-card contract-card">
+                    <div class="card-icon" style="background: linear-gradient(135deg, #e67e22 0%, #d35400 100%);">
+                        <i class="fas fa-file-contract"></i>
+                    </div>
+                    <div class="card-content">
+                        <h3>حالة العقد</h3>
+                        <p class="card-value">في الانتظار</p>
+                        <small>تتوقع الرد خلال 3 أيام</small>
+                    </div>
+                </div>
+
+                <!-- Card 4: Profile Completion -->
+                <div class="stat-card profile-card">
+                    <div class="card-icon" style="background: linear-gradient(135deg, #27ae60 0%, #229954 100%);">
+                        <i class="fas fa-user-check"></i>
+                    </div>
+                    <div class="card-content">
+                        <h3>إكمال البيانات</h3>
+                        <div class="progress-bar">
+                            <div class="progress-fill" style="width: 75%;"></div>
+                        </div>
+                        <small>75% مكتمل</small>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Progress Timeline -->
+        <section class="timeline-section">
+            <h2>مسار التقدم</h2>
+            <div class="timeline">
+                <!-- Step 1 -->
+                <div class="timeline-item completed">
+                    <div class="timeline-dot">
+                        <i class="fas fa-check"></i>
+                    </div>
+                    <div class="timeline-content">
+                        <h3>تقديم الطلب</h3>
+                        <p>تم تقديم طلبك بنجاح</p>
+                        <small>تم في: 15 مايو 2026</small>
+                    </div>
+                </div>
+
+                <!-- Step 2 -->
+                <div class="timeline-item completed">
+                    <div class="timeline-dot">
+                        <i class="fas fa-check"></i>
+                    </div>
+                    <div class="timeline-content">
+                        <h3>مراجعة السيرة الذاتية</h3>
+                        <p>تمت مراجعة بيانات حسابك</p>
+                        <small>تم في: 16 مايو 2026</small>
+                    </div>
+                </div>
+
+                <!-- Step 3: Current -->
+                <div class="timeline-item active">
+                    <div class="timeline-dot">
+                        <i class="fas fa-spinner fa-spin"></i>
+                    </div>
+                    <div class="timeline-content">
+                        <h3>انتظار رد الشركات</h3>
+                        <p>الشركات تقوم بمراجعة طلبك</p>
+                        <small>منذ 2 يوم</small>
+                    </div>
+                </div>
+
+                <!-- Step 4 -->
+                <div class="timeline-item pending">
+                    <div class="timeline-dot">
+                        <i class="fas fa-circle"></i>
+                    </div>
+                    <div class="timeline-content">
+                        <h3>توقيع العقد</h3>
+                        <p>سيتم إرسال العقد لتوقيعه</p>
+                        <small>قريباً</small>
+                    </div>
+                </div>
+
+                <!-- Step 5 -->
+                <div class="timeline-item pending">
+                    <div class="timeline-dot">
+                        <i class="fas fa-circle"></i>
+                    </div>
+                    <div class="timeline-content">
+                        <h3>بدء التدريب</h3>
+                        <p>بدء فترة التدريب الميداني</p>
+                        <small>متوقع: 1 يونيو 2026</small>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Notifications -->
+        <section class="notifications-section">
+            <h2>أحدث الإشعارات</h2>
+            <div class="notifications-list">
+                <div class="notification-item success">
+                    <div class="notification-icon">
+                        <i class="fas fa-check-circle"></i>
+                    </div>
+                    <div class="notification-body">
+                        <h4>تم قبول طلبك!</h4>
+                        <p>تم قبول طلبك من قبل شركة الحسين للتقنية</p>
+                        <small>منذ 30 دقيقة</small>
+                    </div>
+                    <button class="notification-close">×</button>
+                </div>
+
+                <div class="notification-item info">
+                    <div class="notification-icon">
+                        <i class="fas fa-info-circle"></i>
+                    </div>
+                    <div class="notification-body">
+                        <h4>تذكير: أكمل ب��اناتك</h4>
+                        <p>يرجى إضافة صورة شخصية لاستكمال البيانات</p>
+                        <small>منذ ساعة</small>
+                    </div>
+                    <button class="notification-close">×</button>
+                </div>
+
+                <div class="notification-item warning">
+                    <div class="notification-icon">
+                        <i class="fas fa-exclamation-circle"></i>
+                    </div>
+                    <div class="notification-body">
+                        <h4>موعد نهائي قريب</h4>
+                        <p>آخر موعد لتقديم الطلبات: 20 مايو</p>
+                        <small>منذ يومين</small>
+                    </div>
+                    <button class="notification-close">×</button>
+                </div>
+            </div>
+        </section>
+    </main>
+</div>
+
+@section Scripts {
+    <script>
+        // Close notification
+        document.querySelectorAll('.notification-close').forEach(btn => {
+            btn.addEventListener('click', function() {
+                this.closest('.notification-item').style.animation = 'slideOut 0.3s ease-out';
+                setTimeout(() => {
+                    this.closest('.notification-item').remove();
+                }, 300);
+            });
+        });
+
+        // Toggle sidebar on mobile
+        if (window.innerWidth <= 768) {
+            document.querySelector('.sidebar').classList.add('mobile-collapsed');
+        }
+    </script>
+}
